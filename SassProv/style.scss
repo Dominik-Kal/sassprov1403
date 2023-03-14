@@ -1,0 +1,61 @@
+
+
+
+//code to fix
+
+@function double-font-size($size) {
+    @return 2 * $size;
+}
+h1{
+    font-size: double-font-size(70px);
+    color: lightnessText(rgb(255, 255, 255));
+    background-color: lightnessText(rgb(0, 0, 0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//code that already functions
+
+@mixin paragraphcolor($color){
+    color: $color;
+}
+p{
+    @include paragraphcolor(yellowgreen)
+}
+@mixin buttonborder($borderamount){
+    border-radius: $borderamount;
+}
+button{
+    @include buttonborder(5px);
+}
+@mixin colorandbackgroundcolorforheadings($textcolor, $backgroundcolor){
+    color: $textcolor;
+    background-color: $backgroundcolor;
+}
+h2{
+    @include colorandbackgroundcolorforheadings(blue, red)
+}
+h3{
+    @include colorandbackgroundcolorforheadings(blue, red)
+}
+h4{
+    @include colorandbackgroundcolorforheadings(blue, red)
+}
+h5{
+    @include colorandbackgroundcolorforheadings(blue, red)
+}
+h6{
+    @include colorandbackgroundcolorforheadings(blue, red)
+}

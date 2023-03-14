@@ -1,0 +1,38 @@
+h1 {
+  font-size: 140px;
+  color: lightnessText(rgb(255, 255, 255));
+  background-color: lightnessText(rgb(0, 0, 0));
+}
+
+p {
+  color: yellowgreen;
+}
+
+button {
+  border-radius: 5px;
+}
+
+h2 {
+  color: blue;
+  background-color: red;
+}
+
+h3 {
+  color: blue;
+  background-color: red;
+}
+
+h4 {
+  color: blue;
+  background-color: red;
+}
+
+h5 {
+  color: blue;
+  background-color: red;
+}
+
+h6 {
+  color: blue;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
